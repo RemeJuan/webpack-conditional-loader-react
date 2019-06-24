@@ -1,0 +1,60 @@
+Arguments: 
+  /Users/remelehane/.nvm/versions/node/v10.8.0/bin/node /usr/local/Cellar/yarn/1.15.2/libexec/bin/yarn.js
+
+PATH: 
+  /Users/remelehane/.nvm/versions/node/v10.8.0/bin:/usr/local/opt/sqlite/bin:/bin:/usr/local/opt/mongodb@3.6/bin:/usr/local/opt/node@8/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/ImageMagick/bin:/usr/local/opt/sqlite/bin:/usr/local/opt/mongodb@3.6/bin:/usr/local/opt/node@8/bin:/Users/remelehane/Library/Android/sdk/tools:/Users/remelehane/Library/Android/sdk/tools/bin:/Users/remelehane/Library/Android/sdk/platform-tools:/Users/remelehane/Library/Android/sdk/emulatory:/Users/remelehane/Library/Android/sdk/tools:/Users/remelehane/Library/Android/sdk/tools/bin:/Users/remelehane/Library/Android/sdk/platform-tools:/Users/remelehane/Library/Android/sdk/emulatory
+
+Yarn version: 
+  1.15.2
+
+Node version: 
+  10.8.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/remelehane/Documents/other/webpack-conditional-loader-react/package.json: Unexpected token ' in JSON at position 188
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.15.2/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.15.2/libexec/lib/cli.js:304:30)
+      at /usr/local/Cellar/yarn/1.15.2/libexec/lib/cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "webpack-conditional-loader-react",
+    "version": "1.0.0",
+    "description": "Conditional loader for React",
+    "main": "src/index.js",
+    "author": "Reme Le Hane",
+    "keywords": ['react', 'webpack'],
+    "license": "MIT",
+    "private": false,
+    "files": [
+      "src/"
+    ],
+    "dependencies": {},
+    "devDependencies": {
+      "standard": "^10.0.2",
+      "tap": "^10.7.0",
+      "webpack": "^3.4.1"
+    },
+    "scripts": {
+      "build": "webpack --config webpack.js > /dev/null"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/RemeJuan/webpack-conditional-loader-react.git"
+    },
+    "bugs": {
+      "url": "https://github.com/RemeJuan/webpack-conditional-loader-react.git/issues"
+    },
+    "homepage": "https://github.com/RemeJuan/webpack-conditional-loader-react.git#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

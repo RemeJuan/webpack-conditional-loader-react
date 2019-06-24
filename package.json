@@ -1,0 +1,31 @@
+{
+  "name": "webpack-conditional-loader-react",
+  "version": "1.0.0",
+  "description": "Conditional loader for React",
+  "main": "src/index.js",
+  "author": "Reme Le Hane",
+  "keywords": [
+    "react",
+    "webpack"
+  ],
+  "license": "MIT",
+  "private": false,
+  "files": [
+    "src/"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "^10.0.2",
+    "tap": "^10.7.0",
+    "webpack": "^4.3.5",
+    "webpack-cli": "^3.3.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RemeJuan/webpack-conditional-loader-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RemeJuan/webpack-conditional-loader-react.git/issues"
+  },
+  "homepage": "https://github.com/RemeJuan/webpack-conditional-loader-react.git#readme"
+}
